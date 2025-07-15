@@ -1,0 +1,8 @@
+@import "tailwindcss";
+.a {border: 1px solid rgba(0, 0, 0, 0.1);}
+.bg-green{
+    background-color: #B9FF66;
+}
+.bg-shadewhite{
+    background-color: #F3F3F3;
+}
