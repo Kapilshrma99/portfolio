@@ -1,8 +1,10 @@
 import React from 'react';
 import illustration from '../../assets/profile.jpg';
+import Logo from './Logo';
 
 const Header = () => {
   return (
+    <>
     <div className="w-full flex flex-col-reverse md:flex-row items-center justify-around px-6 md:px-16 py-6 md:py-12 sm:py-2 gap-5 min-h-screen">
 
       {/* Left Side */}
@@ -25,7 +27,10 @@ const Header = () => {
           className="w-full h-full object-cover"
         />
       </div>
+      
     </div>
+   
+    </>
   );
 };
 
