@@ -58,7 +58,7 @@ const Navbar = () => {
              <Link to='/Techstack'>Tech Stack</Link>
             {/* <li>Projects</li> */}
             <Link to='/projects'>Projects</Link>
-            <Link to='/contact'>Contact</Link>
+            <Link to='/Form'>Contact</Link>
             {/* <li>Contact</li> */}
             <a className='text-center' href='https://www.linkedin.com/in/kapil-sharma-developer' target='_blank'> <img src={vector1} alt="linkdin" /></a>
             <a className='text-center' href='https://x.com/Kapilsharma0112' target='twitter'> <img src={vector2} alt="linkdin" /></a>
