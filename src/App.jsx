@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from './comonents/Landing_page/Footer'
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <>
+      <Analytics />
      <BrowserRouter>
      <div className='flex flex-col'>
     <Navbar/>
