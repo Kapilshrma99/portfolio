@@ -8,6 +8,7 @@ import Navbar from './comonents/Landing_page/Navbar'
 import Projects from './comonents/Landing_page/Projects'
 import Service_heading from './comonents/services/Service_heading'
 import Services from './comonents/services/Services'
+import Form from './comonents/Landing_page/Form';
 
 function App() {
 
@@ -31,7 +32,7 @@ function App() {
       <Route path='/Techstack' element={<Logo/>}/>
 
      <Route path='/projects' element= {<Projects/>}></Route>
-    
+    <Route path='/Form' element= {    <Form/>}></Route>
     
     
     </Routes>

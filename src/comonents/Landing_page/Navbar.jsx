@@ -36,11 +36,11 @@ const Navbar = () => {
             <Link to='/Techstack'>Tech Stack</Link>
             {/* <li>Projects</li> */}
             <Link to='/projects'>Projects</Link>
-            <li>Contact</li>
-           <li> <a href='https://www.linkedin.com/in/kapil-sharma-developer' target='_blank'> <img src={vector1} alt="linkdin" /></a></li>
-            <li><a href='https://x.com/Kapilsharma0112' target='twitter'> <img src={vector2} alt="linkdin" /></a></li>
-           <li><a href='https://github.com/Kapilshrma99' target='_blank'> <img src={vector3} alt="github" /></a></li>
-          <a href="mailto:kapilsharma09311@gmail.com" className="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition">
+             <Link to='/Form'>Contact</Link>
+           <li> <a className='text-center' href='https://www.linkedin.com/in/kapil-sharma-developer' target='_blank'> <img src={vector1} alt="linkdin" /></a></li>
+            <li><a className='text-center' href='https://x.com/Kapilsharma0112' target='twitter'> <img src={vector2} alt="linkdin" /></a></li>
+           <li><a className='text-center' href='https://github.com/Kapilshrma99' target='_blank'> <img src={vector3} alt="github" /></a></li>
+          <a  href="mailto:kapilsharma09311@gmail.com" className="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition">
   Hire Me
 </a>
 
@@ -58,11 +58,12 @@ const Navbar = () => {
              <Link to='/Techstack'>Tech Stack</Link>
             {/* <li>Projects</li> */}
             <Link to='/projects'>Projects</Link>
-            <li>Contact</li>
-            <a href='https://www.linkedin.com/in/kapil-sharma-developer' target='_blank'> <img src={vector1} alt="linkdin" /></a>
-            <a href='https://x.com/Kapilsharma0112' target='twitter'> <img src={vector2} alt="linkdin" /></a>
-           <a href='https://github.com/Kapilshrma99' target='_blank'> <img src={vector3} alt="github" /></a>
-          <a href="mailto:kapilsharma09311@gmail.com" className="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition">
+            <Link to='/contact'>Contact</Link>
+            {/* <li>Contact</li> */}
+            <a className='text-center' href='https://www.linkedin.com/in/kapil-sharma-developer' target='_blank'> <img src={vector1} alt="linkdin" /></a>
+            <a className='text-center' href='https://x.com/Kapilsharma0112' target='twitter'> <img src={vector2} alt="linkdin" /></a>
+           <a className='text-center' href='https://github.com/Kapilshrma99' target='_blank'> <img src={vector3} alt="github" /></a>
+          <a  href="mailto:kapilsharma09311@gmail.com" className="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition">
   Hire Me
 </a>
           </ul>
