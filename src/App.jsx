@@ -9,6 +9,7 @@ import Projects from './comonents/Landing_page/Projects'
 import Service_heading from './comonents/services/Service_heading'
 import Services from './comonents/services/Services'
 import Form from './comonents/Landing_page/Form';
+import About from './comonents/About';
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
     
       <Routes>
    
-    
+    <Route path='/about' element={<About/>}></Route>
     <Route path='/' element= {
       <>
       <Header/>
