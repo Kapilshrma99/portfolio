@@ -108,7 +108,8 @@ const Header = () => {
           <div className={`flex flex-col sm:flex-row gap-4 justify-center md:justify-start transition-all duration-1000 delay-900 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
           }`}>
-            <button className="group px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-full hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
+
+            <button onClick={()=>(window.location.href='/projects')} className="group px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-full hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
               <span className="flex items-center justify-center gap-2">
                 View My Work
                 <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -117,7 +118,15 @@ const Header = () => {
               </span>
             </button>
             
-            <button className="px-8 py-4 border-2 border-gray-300 text-gray-700 font-semibold rounded-full hover:border-blue-500 hover:bg-blue-50 hover:text-blue-600 transform hover:scale-105 transition-all duration-300">
+            <button 
+            onClick={()=>{
+                     const link = document.createElement("a");
+  link.href = "/Kapil_MERN.pdf"; // must be inside the public folder
+  link.download = "Kapil_Sharma_Resume.pdf";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+                }} className="px-8 py-4 border-2 border-gray-300 text-gray-700 font-semibold rounded-full hover:border-blue-500 hover:bg-blue-50 hover:text-blue-600 transform hover:scale-105 transition-all duration-300">
               Download CV
             </button>
           </div>
