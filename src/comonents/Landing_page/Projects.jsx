@@ -14,6 +14,15 @@ const Projects = () => {
 
   const project = [
     {
+      title: "website For digital marketing agency",
+      image: i1,
+      description: "This is a modern, high-performance website developed for a fictional digital marketing agency using Next.js. The project showcases a fully responsive design with fast loading speeds and SEO-friendly architecture.",
+      TechStack: ["HTML", "Tailwind CSS", "JavaScript", "Hosting", "Github", "MongoDB", "Express", "Node.js","Next js"],
+      Live: "https://adkey.vercel.app/",
+      code: "https://github.com/Kapilshrma99/adkey",
+      category: "Frontend"
+    },
+    {
       title: "Landing Page For Educational Institute",
       image: i1,
       description: "A static landing page for an educational institute showcasing offerings and an Apply Now CTA.",
