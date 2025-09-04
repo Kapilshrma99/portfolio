@@ -14,6 +14,15 @@ const Projects = () => {
 
   const project = [
     {
+      title: "Landing page gym trainer",
+      image: i6,
+      description: "This is a modern, high-performance website developed for a well eduacted gym trainer using Next.js. The project showcases a fully responsive design with fast loading speeds and SEO-friendly architecture.",
+      TechStack: ["HTML", "Tailwind CSS", "JavaScript", "Hosting", "Github", "MongoDB", "Express", "Node.js","Next js"],
+      Live: "https://gymtrainer-pi.vercel.app/",
+      code: "https://github.com/Kapilshrma99/gymtrainer",
+      category: "Frontend"
+    },
+    {
       title: "website For digital marketing agency",
       image: i1,
       description: "This is a modern, high-performance website developed for a fictional digital marketing agency using Next.js. The project showcases a fully responsive design with fast loading speeds and SEO-friendly architecture.",
